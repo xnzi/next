@@ -1,0 +1,65 @@
+.contactSection {
+  background: #f9fafd;
+  padding: 4rem 0;
+  text-align: center;
+}
+.contactTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+}
+.contactDesc {
+  color: #64748b;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+.contactCard {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  padding: 2.5rem 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input,
+.form textarea {
+  margin-bottom: 1.1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #dbeafe;
+  font-size: 1rem;
+  background: #f1f5f9;
+  color: #0f172a;
+  transition: border 0.2s;
+}
+.form input:focus,
+.form textarea:focus {
+  border: 1.5px solid #007bff;
+  outline: none;
+}
+.form button {
+  background: #007bff;
+  color: #fff;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.form button:hover {
+  background: #0056b3;
+}
+.successMsg {
+  padding: 2rem 1rem;
+  color: #16a34a;
+}
+@media (max-width: 600px) {
+  .contactTitle { font-size: 1.5rem; }
+ 

@@ -1,0 +1,35 @@
+.aboutSection {
+  background: #fff;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCard {
+  background: #f9fafd;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  max-width: 700px;
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+.aboutTitle {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+}
+.aboutDesc {
+  color: #475569;
+  font-size: 1.12rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+}
+@media (max-width: 600px) {
+  .aboutCard {
+    padding: 2rem 1rem;
+  }
+  .aboutTitle {
+    font-size: 1.5rem;
+  }
+}

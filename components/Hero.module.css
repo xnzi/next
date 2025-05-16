@@ -1,0 +1,64 @@
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9fafd;
+  text-align: center;
+}
+.heroContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.heroContent p {
+  color: #64748b;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.presaleWidget {
+  background: #fff;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.06);
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  display: inline-block;
+}
+.presaleWidget form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presaleWidget label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.presaleWidget input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #dbeafe;
+  width: 200px;
+  font-size: 1rem;
+}
+.connectBtn, .buyBtn {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.connectBtn:hover, .buyBtn:hover {
+  background: #0056b3;
+}
+.status {
+  margin-top: 1rem;
+  color: #64748b;
+  font-size: 1rem;
+}
