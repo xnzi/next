@@ -62,5 +62,5 @@
 }
 @media (max-width: 600px) {
   .contactTitle { font-size: 1.5rem; }
- 
+  .contactCard { padding: 1.5rem 0.5rem; }
 }
